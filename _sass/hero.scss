@@ -1,0 +1,110 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: 50% 50%;
+
+  a {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.hero-text {
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+  color: white;
+}
+.hero-text.color-black {
+  color: $black;
+}
+.hero-text.color-white {
+  color: white;
+  // text-shadow: 0 1px 3px black;
+}
+
+/*h1*/.hero-heading {
+  margin: 0 0 0 0;
+  font-size: 4rem;
+  line-height: 5rem;
+  text-align: center;
+}
+h2.hero-heading {
+  margin: 1rem 0 0 0;
+  font-size: 3rem;
+  line-height: 4rem;
+}
+h3.hero-heading {
+  margin: 0;
+  font-size: 2rem;
+  line-height: 2.67rem;
+}
+
+/*h1*/.hero-heading,
+/*p*/.hero-subheading {
+  position: relative;
+  z-index: 10;
+}
+
+/*p*/.hero-subheading {
+  max-width: 52rem;
+  margin: 1rem auto 0 auto;
+  font-family: $body-text;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+// Heading button
+// .hero-button {
+//   .button();
+//   display: block;
+//   position: relative;
+//   font-weight: 600;
+//   width: 15rem;
+//   height: 4rem;
+//   margin: 2.5rem auto 1rem auto;
+//   line-height: 4rem;
+//   text-align: center;
+// }
+
+// .hero-fine-print {
+//   font-size: 1.167rem;
+//   line-height: 1.34rem;
+//   text-align: center;
+//   font-family: "canada-type-gibson", @body-text;
+//   font-weight: 400;
+//   margin-top: -1.25rem;
+// }
+
+// Responsive
+@media screen and (max-width: (77*$rem)) {
+  // .hero {
+  //  padding-top: 0;
+  //  padding-bottom: 0;
+  // }
+  /*h1*/.hero-heading {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  .hero-subheading {
+    font-size: 1.834rem;
+    line-height: 2.5rem;
+  }
+}
+@media screen and (max-width: $break-medium) {
+  /*h1*/.hero-heading {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  /*p*/.hero-subheading {
+    letter-spacing: -0.04167rem;
+    font-size: 1.667rem;
+    line-height: 2.34rem;
+  }
+}

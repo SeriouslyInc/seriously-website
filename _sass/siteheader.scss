@@ -1,0 +1,28 @@
+.page {
+  margin-top: 5rem;
+}
+
+/////////////////
+// SITE HEADER // The master header at the top of every page
+/////////////////
+
+// Site Header Container
+.siteheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  opacity: 0.98;
+  z-index: 1000;
+}
+.siteheader-logo {
+  display: block;
+  position: relative;
+  width: 13rem;
+  height: 3rem;
+  margin: 0.167rem auto -0.167rem auto;
+}

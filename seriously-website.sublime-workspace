@@ -1,0 +1,1273 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"sec",
+				"section-title"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"o",
+				"overflow-y"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"con",
+				"content-item"
+			],
+			[
+				"fig",
+				"figcaption\tTag"
+			],
+			[
+				"max",
+				"max_roast"
+			],
+			[
+				"prod",
+				"product_points"
+			],
+			[
+				"rec",
+				"recommendation"
+			],
+			[
+				"current",
+				"current_user"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"ov",
+				"overflow-x"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"favor",
+				"favorite_ids"
+			],
+			[
+				"lik",
+				"liked_by"
+			],
+			[
+				"team",
+				"team_size"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"gr",
+				"grind_message"
+			],
+			[
+				"sele",
+				"selected_option"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"cu",
+				"current_user"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"padding-",
+				"padding-bottom"
+			],
+			[
+				"be_",
+				"be_valid"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"attach",
+				"attachClickEvents"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/tyler/Sites/seriously-website/index.html",
+			"settings":
+			{
+				"buffer_size": 43,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "Hello World"
+			}
+		},
+		{
+			"file": "main.scss",
+			"settings":
+			{
+				"buffer_size": 74,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tyler/Sites/seriously-website/_sass/siteheader.scss",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tyler/Sites/seriously-website/_sass/boilerplate.scss",
+			"settings":
+			{
+				"buffer_size": 6200,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tyler/Sites/seriously-website/_layouts/base.html",
+			"settings":
+			{
+				"buffer_size": 1305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tyler/Sites/seriously-website/_includes/sitefooter.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/tyler/Sites/seriously-website/_includes/siteheader.html",
+			"settings":
+			{
+				"buffer_size": 2675,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 89.0,
+		"last_filter": "lower",
+		"selected_items":
+		[
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"upp",
+				"Convert Case: Upper Case"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"convert ",
+				"Convert Case: Upper Case"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tyler/Sites/seriously-website",
+		"/Users/tyler/Sites/seriously-website/_includes",
+		"/Users/tyler/Sites/seriously-website/_layouts",
+		"/Users/tyler/Sites/seriously-website/_sass",
+		"/Users/tyler/Sites/seriously-website/css"
+	],
+	"file_history":
+	[
+		"/Users/tyler/Sites/seriously-website/_includes/siteheader.html",
+		"/Users/tyler/Sites/seriously-website/.gitignore",
+		"/Users/tyler/Sites/seriously-website/index.md",
+		"/Users/tyler/Sites/crema/app/assets/stylesheets/app/siteheader.less",
+		"/Users/tyler/Sites/tylertate/_site/blog/startup/2017/09/19/startup-cheat-sheet-how-to-create-a-winning-pitch-deck.html",
+		"/Users/tyler/Sites/tylertate/_site/blog/search/2012/04/06/mobile-information-needs.html",
+		"/Users/tyler/Sites/tylertate/talks.html",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/section.less",
+		"/Users/tyler/Sites/tylertate/writings.html",
+		"/Users/tyler/Sites/tylertate/_config.yml",
+		"/Users/tyler/Sites/tylertate/resources/css/main.less",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/book-list.less",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2013-06-11-retina-images-using-media-queries-and-LESS-CSS.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-01-05-subpixel-rounding.markdown",
+		"/Users/tyler/Sites/tylertate/_site/resources/css/main.less",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/hero.less",
+		"/Users/tyler/Sites/tylertate/index.html",
+		"/Users/tyler/Sites/tylertate/_includes/writing_list.html",
+		"/Users/tyler/Sites/tylertate/events/_posts/2013-05-03-designing-the-search-experience.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-04-20-novices-orienteer-experts-teleport.markdown",
+		"/Users/tyler/Sites/tylertate/events/_posts/2017-02-15-500-startups-batch-19-crema-co-pitch.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-11-12-on-taking-time-off.markdown",
+		"/Users/tyler/Sites/tylertate/_site/blog/misc/2014/11/12/on-taking-time-off.html",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-07-26-ux-of-learning.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-06-28-personalized-recommendations-coffees-tailored-to-you.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-07-31-the-startup-cheat-sheet.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2013-11-07-information-wayfinding.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-02-22-what-we-learned-at-500-startups.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-04-01-designers-as-innovators.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-07-25-four-faces-of-search.markdown",
+		"/Users/tyler/Sites/tylertate/_site/blog/ux/featured/2015/04/01/designers-as-innovators.html",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/grid.less",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/content-list.less",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-07-31-a-few-things-weve-learned-from-our-kickstarter-backers.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-04-07-peets-acquisition-stumptown-intelligentsia-state-of-coffee.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-07-05-reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.markdown",
+		"/Users/tyler/Sites/tylertate/_site/blog/crema/2017/07/05/reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.html",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-07-20-dollar-shave-club.markdown",
+		"/Users/tyler/Sites/tylertate/_site/blog/misc/2016/07/20/dollar-shave-club.html",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-09-19-startup-cheat-sheet-how-to-create-a-winning-pitch-deck.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-08-22-startup-cheat-sheet-how-to-close-your-first-investor.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2017-08-09-startup-cheat-sheet-how-to-incorporate-your-company.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-11-07-james-currier-on-unlocking-the-secrets-of-growth.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-10-01-naming-startups-choosing-a-company-name.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-03-10-information-wayfinding-part-3.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2013-05-06-information-wayfinding-part-2.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2013-04-01-information-wayfinding-part-1.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-12-21-investigating-cross-channel-consistency.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-03-19-the-experience-map.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-02-21-cross-channel-ia-blueprint.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-10-17-cross-channel-ux-design.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-08-23-semantic-grid-system.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-06-16-learning-styles.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-05-12-cognitive-styles.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-11-18-nutshell-launches-in-nyc.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-09-27-review-simple-and-usable-by-giles-colborne.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-08-26-paper-and-ink-sketching-nutshell.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-06-29-concerning-fidelity-in-design.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-04-27-a-bright-new-future-for-crm.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2009-10-07-minimizing-complexity.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2009-05-29-the-1kb-css-grid.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-11-08-george-lee-growth-instagram.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-11-10-susan-su-frameworks-content-marketing-growth.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-12-08-from-famine-to-feast-foods-online-future.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-01-16-the-case-for-a-coffee-marketplace.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-01-27-hello-world-meet-crema.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-03-08-back-us-on-kickstarter.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-03-28-starbucks-reserve-roastery-joins-the-coffee-subscription-race.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2015-12-04-introducing-crema-1.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-05-12-better-wayfinding-on-pinterest-and-spotify.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-12-18-designing-the-search-experience-book.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-07-01-designing-mobile-search.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-04-06-mobile-information-needs.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2012-01-23-three-circles-of-collaborative-search.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-10-13-book-review-search-analytics.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-02-09-search-as-a-flow-experience.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2011-01-05-from-pattern-to-component.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-07-05-the-scent-of-search.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-04-15-2016-coffee-trends.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-06-14-ratings-remember-coffees-you-love.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-06-21-brew-log-your-coffee-palate-visualized.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2016-07-12-the-discovery-gap.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2010-02-08-search-suggestions.markdown",
+		"/Users/tyler/Sites/tylertate/blog/_posts/2014-12-09-online-grocery-shopping-a-hard-nut-to-crack.markdown",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/content-blocks.less",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/header.less",
+		"/Users/tyler/Sites/tylertate/works/_posts/2017-09-28-rideshare.markdown",
+		"/Users/tyler/Sites/tylertate/resources/css/helpers/featured-groups.less",
+		"/Users/tyler/Sites/tylertate/work.html",
+		"/Users/tyler/Sites/tylertate/works/_posts/2011-01-01-nutshell-designing-saas-crm-from-scratch.markdown",
+		"/Users/tyler/Sites/tylertate/works/_posts/2014-01-01-twigkit-user-interface-components.markdown",
+		"/Users/tyler/Sites/tylertate/works/_posts/2016-08-16-crema-coffee-marketplace.markdown",
+		"/Users/tyler/Sites/tylertate/works/_posts/2017-08-10-lux-flight-search-app.markdown",
+		"/Users/tyler/Sites/tylertate/works/_posts/2014-08-01-google-enterprise.markdown",
+		"/Users/tyler/Sites/tylertate/works/_posts/2017-08-22-juke-office-music-collaboration.markdown",
+		"/Users/tyler/Sites/tylertate/_site/resources/css/helpers/content-blocks.less",
+		"/Users/tyler/Sites/tylertate/_site/resources/css/main.css",
+		"/Users/tyler/Sites/tylertate/Gemfile",
+		"/Users/tyler/Library/Application Support/Sublime Text 3/Packages/User/tylertate-less.sublime-build",
+		"/Users/tyler/Sites/crema/app/views/admin/users/show.html.erb",
+		"/Users/tyler/Sites/crema/app/helpers/products_helper.rb",
+		"/Users/tyler/Sites/crema/db/schema.rb",
+		"/Users/tyler/Dropbox/Crema Engineering/flag_sampler_orders.rb",
+		"/Users/tyler/Sites/crema/app/helpers/vocabularies/flavor_vocab_helper.rb",
+		"/Users/tyler/Sites/crema/app/models/coffee_profile.rb",
+		"/Users/tyler/Sites/crema/app/models/gift.rb",
+		"/Users/tyler/Sites/crema/app/models/credit.rb",
+		"/Users/tyler/Sites/crema/app/workers/check_monthly_qau_stats.rb",
+		"/Users/tyler/Sites/crema/lib/tasks/crema.rake",
+		"/Users/tyler/Dropbox/Crema Engineering/cohort_analysis.rb",
+		"/Users/tyler/Dropbox/Crema Engineering/sampler_cohort_analysis.rb",
+		"/Users/tyler/Sites/crema/app/views/profile/_brewlog_unlocked_javascript.html.erb",
+		"/Users/tyler/Sites/crema/app/models/order.rb",
+		"/Users/tyler/Sites/crema/app/controllers/v1/webhooks_controller.rb",
+		"/Users/tyler/Sites/crema/app/views/layouts/_sitefooter.html.erb",
+		"/Users/tyler/Sites/crema/provisioning/bootstrap.sh",
+		"/Users/tyler/Sites/crema/config/database.yml",
+		"/Users/tyler/Sites/crema/config/application-template.yml",
+		"/Users/tyler/Sites/crema/app/models/user.rb",
+		"/Users/tyler/Sites/crema/app/models/product.rb",
+		"/Users/tyler/Sites/crema/app/views/office_coffee/activate/thanks.html.erb",
+		"/Users/tyler/Sites/crema/app/views/office_coffee/activate/billing.html.erb",
+		"/Users/tyler/Sites/crema/app/views/v1/slack/commands/settings.json.jbuilder",
+		"/Users/tyler/Sites/crema/app/controllers/v1/slack_controller.rb",
+		"/Users/tyler/Sites/crema/app/controllers/office_coffee/activate_controller.rb",
+		"/Users/tyler/Sites/crema/app/controllers/office_coffee_controller.rb",
+		"/Users/tyler/Sites/crema/app/assets/javascripts/components/office_wizard.jsx.erb",
+		"/Users/tyler/Sites/crema/app/views/office_coffee/index.html.erb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/tyler/Sites/seriously-website/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 43,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Hello World",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 74,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								72,
+								72
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/tyler/Sites/seriously-website/_sass/siteheader.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/tyler/Sites/seriously-website/_sass/boilerplate.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/tyler/Sites/seriously-website/_layouts/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/tyler/Sites/seriously-website/_includes/sitefooter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/tyler/Sites/seriously-website/_includes/siteheader.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								65,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 30.0
+	},
+	"output.find_results":
+	{
+		"height": 333.0
+	},
+	"pinned_build_system": "",
+	"project": "seriously-website.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"siteh",
+				"app/views/layouts/_siteheader.html.erb"
+			],
+			[
+				"sitehea",
+				"app/assets/stylesheets/app/siteheader.less"
+			],
+			[
+				"hind",
+				"_site/blog/startup/2017/09/19/startup-cheat-sheet-how-to-create-a-winning-pitch-deck.html"
+			],
+			[
+				"homeind",
+				"_site/blog/search/2012/04/06/mobile-information-needs.html"
+			],
+			[
+				"sec",
+				"resources/css/helpers/section.less"
+			],
+			[
+				"main",
+				"resources/css/main.less"
+			],
+			[
+				"talks",
+				"talks.html"
+			],
+			[
+				"work",
+				"work.html"
+			],
+			[
+				"book",
+				"resources/css/helpers/book-list.less"
+			],
+			[
+				"confi",
+				"_config.yml"
+			],
+			[
+				"retina",
+				"blog/_posts/2013-06-11-retina-images-using-media-queries-and-LESS-CSS.markdown"
+			],
+			[
+				"pixeld",
+				"blog/_posts/2012-01-05-subpixel-rounding.markdown"
+			],
+			[
+				"wri",
+				"writings.html"
+			],
+			[
+				"main.less",
+				"resources/css/main.less"
+			],
+			[
+				"ontaking",
+				"blog/_posts/2014-11-12-on-taking-time-off.markdown"
+			],
+			[
+				"ontak",
+				"_site/blog/misc/2014/11/12/on-taking-time-off.html"
+			],
+			[
+				"novic",
+				"blog/_posts/2011-04-20-novices-orienteer-experts-teleport.markdown"
+			],
+			[
+				"talks.html",
+				"talks.html"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"designe",
+				"blog/_posts/2015-04-01-designers-as-innovators.markdown"
+			],
+			[
+				"designersas",
+				"_site/blog/ux/featured/2015/04/01/designers-as-innovators.html"
+			],
+			[
+				"ma",
+				"resources/css/main.less"
+			],
+			[
+				"hero",
+				"resources/css/helpers/hero.less"
+			],
+			[
+				"gri",
+				"resources/css/helpers/grid.less"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"main.l",
+				"resources/css/main.less"
+			],
+			[
+				"cont",
+				"resources/css/helpers/content-list.less"
+			],
+			[
+				"kick",
+				"blog/_posts/2015-07-31-a-few-things-weve-learned-from-our-kickstarter-backers.markdown"
+			],
+			[
+				"peets",
+				"blog/_posts/2016-04-07-peets-acquisition-stumptown-intelligentsia-state-of-coffee.markdown"
+			],
+			[
+				"reinve",
+				"blog/_posts/2017-07-05-reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.markdown"
+			],
+			[
+				"rei",
+				"_site/blog/crema/2017/07/05/reinventing-workplace-coffee-with-artisan-roasters-machine-learning-and-a-slack-bot.html"
+			],
+			[
+				"dollar",
+				"blog/_posts/2016-07-20-dollar-shave-club.markdown"
+			],
+			[
+				"dollarsh",
+				"_site/blog/misc/2016/07/20/dollar-shave-club.html"
+			],
+			[
+				"writ",
+				"writings.html"
+			],
+			[
+				"mai",
+				"resources/css/main.less"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"rake",
+				"lib/tasks/crema.rake"
+			],
+			[
+				"modeluser",
+				"app/models/user.rb"
+			],
+			[
+				"adminordersspec",
+				"spec/controllers/admin/orders_controller_spec.rb"
+			],
+			[
+				"railshelper",
+				"spec/rails_helper.rb"
+			],
+			[
+				"modelaccount",
+				"app/models/account.rb"
+			],
+			[
+				"coffeecon",
+				"app/controllers/coffees_controller.rb"
+			],
+			[
+				"ballot",
+				"app/models/ballot.rb"
+			],
+			[
+				"sitef",
+				"app/views/layouts/_sitefooter.html.erb"
+			],
+			[
+				"webho",
+				"app/controllers/v1/webhooks_controller.rb"
+			],
+			[
+				"modelorder",
+				"app/models/order.rb"
+			],
+			[
+				"flavor",
+				"app/helpers/vocabularies/flavor_vocab_helper.rb"
+			],
+			[
+				"coffeepro",
+				"app/models/coffee_profile.rb"
+			],
+			[
+				"brewlog",
+				"app/views/profile/_brewlog_unlocked_javascript.html.erb"
+			],
+			[
+				"monthlyq",
+				"app/workers/check_monthly_qau_stats.rb"
+			],
+			[
+				"modelcredit",
+				"app/models/credit.rb"
+			],
+			[
+				"sche",
+				"db/schema.rb"
+			],
+			[
+				"gift",
+				"app/models/gift.rb"
+			],
+			[
+				"modelusereve",
+				"app/models/user_event.rb"
+			],
+			[
+				"modelpro",
+				"app/models/product.rb"
+			],
+			[
+				"appl",
+				"config/application-template.yml"
+			],
+			[
+				"bootst",
+				"provisioning/bootstrap.sh"
+			],
+			[
+				"recalcu",
+				"app/workers/recalculate_coffee_profiles.rb"
+			],
+			[
+				"coffeeprofile",
+				"app/models/coffee_profile.rb"
+			],
+			[
+				"officewizard",
+				"app/assets/javascripts/components/office_wizard.jsx.erb"
+			],
+			[
+				"slackcon",
+				"app/controllers/v1/slack_controller.rb"
+			],
+			[
+				"officeacti",
+				"app/controllers/office_coffee/activate_controller.rb"
+			],
+			[
+				"officecof",
+				"app/controllers/office_coffee_controller.rb"
+			],
+			[
+				"officeind",
+				"app/views/office_coffee/index.html.erb"
+			],
+			[
+				"slackcontro",
+				"app/controllers/v1/slack_controller.rb"
+			],
+			[
+				"coffeeprofi",
+				"app/models/coffee_profile.rb"
+			],
+			[
+				"ball",
+				"app/models/ballot.rb"
+			],
+			[
+				"state",
+				"app/models/statement.rb"
+			],
+			[
+				"stateme",
+				"app/models/statement.rb"
+			],
+			[
+				"seller",
+				"app/models/seller.rb"
+			],
+			[
+				"b",
+				"app/models/ballot.rb"
+			],
+			[
+				"modelsell",
+				"app/models/seller.rb"
+			],
+			[
+				"frequency",
+				"app/helpers/vocabularies/frequency_vocab_helper.rb"
+			],
+			[
+				"freque",
+				"app/assets/javascripts/brewlist/frequency.js"
+			],
+			[
+				"officecoffee",
+				"app/assets/javascripts/office_coffee.js"
+			],
+			[
+				"produ",
+				"app/models/product.rb"
+			],
+			[
+				"produc",
+				"app/views/admin/products/_form.html.erb"
+			],
+			[
+				"coffeecontro",
+				"app/controllers/coffees_controller.rb"
+			],
+			[
+				"modelusereven",
+				"app/models/user_event.rb"
+			],
+			[
+				"modelaccoun",
+				"app/models/account.rb"
+			],
+			[
+				"userma",
+				"app/mailers/user_mailer.rb"
+			],
+			[
+				"nextup",
+				"app/jobs/next_up_email_job.rb"
+			],
+			[
+				"daily",
+				"app/workers/daily_brewlist_batch.rb"
+			],
+			[
+				"crem",
+				"lib/tasks/crema.rake"
+			],
+			[
+				"modelball",
+				"app/models/ballot.rb"
+			],
+			[
+				"modelprod",
+				"app/models/product.rb"
+			],
+			[
+				"daily_brewlist_batch_spec.rb",
+				"spec/workers/daily_brewlist_batch_spec.rb"
+			],
+			[
+				"giftnew",
+				"app/views/gifts/new.html.erb"
+			],
+			[
+				"giftin",
+				"app/views/gifts/index.html.erb"
+			],
+			[
+				"samplercon",
+				"app/controllers/sampler_controller.rb"
+			],
+			[
+				"sampler",
+				"app/views/sampler/index.html.erb"
+			],
+			[
+				"dailybrewlist",
+				"spec/workers/daily_brewlist_batch_spec.rb"
+			],
+			[
+				"sitefo",
+				"app/views/layouts/_sitefooter.html.erb"
+			],
+			[
+				"dailyb",
+				"app/workers/daily_brewlist_batch.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"officeco",
+				"app/controllers/office_coffee_controller.rb"
+			],
+			[
+				"profilecontro",
+				"app/controllers/profile_controller.rb"
+			],
+			[
+				"profileorder",
+				"app/views/profile/orders.html.erb"
+			],
+			[
+				"slack",
+				"app/controllers/v1/slack_controller.rb"
+			],
+			[
+				"adminuserinde",
+				"app/views/admin/users/index.html.erb"
+			],
+			[
+				"officein",
+				"app/views/office_coffee/index.html.erb"
+			],
+			[
+				"omni",
+				"app/controllers/users/omniauth_callbacks_controller.rb"
+			],
+			[
+				"officethank",
+				"app/views/office_coffee/activate/thanks.html.erb"
+			],
+			[
+				"officebill",
+				"app/views/office_coffee/activate/billing.html.erb"
+			],
+			[
+				"officeship",
+				"app/views/office_coffee/activate/shipping.html.erb"
+			],
+			[
+				"wiza",
+				"app/views/office_coffee/activate/wizard.html.erb"
+			],
+			[
+				"registnew",
+				"app/views/devise/registrations/new.html.erb"
+			],
+			[
+				"dailyra",
+				"app/jobs/daily_rating_notifications_job.rb"
+			],
+			[
+				"ordermail",
+				"app/mailers/order_mailer.rb"
+			],
+			[
+				"adminproductedit",
+				"app/views/admin/products/edit.html.erb"
+			],
+			[
+				"adminproductcon",
+				"app/controllers/admin/products_controller.rb"
+			],
+			[
+				"productform",
+				"app/views/admin/products/_form.html.erb"
+			],
+			[
+				"sellproduct",
+				"app/views/sell/products/edit.html.erb"
+			],
+			[
+				"modelacc",
+				"app/models/account.rb"
+			],
+			[
+				"modelprodu",
+				"app/models/product.rb"
+			],
+			[
+				"applhelp",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"modelgi",
+				"app/models/gift.rb"
+			],
+			[
+				"admincre",
+				"app/controllers/admin/admin_credits_controller.rb"
+			],
+			[
+				"modeladminc",
+				"app/models/admin_credit.rb"
+			],
+			[
+				"admincreditcon",
+				"app/controllers/admin/admin_credits_controller.rb"
+			],
+			[
+				"adminusershow",
+				"app/views/admin/users/show.html.erb"
+			],
+			[
+				"modelcred",
+				"app/models/credit.rb"
+			],
+			[
+				"usermailer",
+				"app/mailers/user_mailer.rb"
+			],
+			[
+				"removefromdripcampaignjob",
+				"app/jobs/remove_from_drip_campaign_job.rb"
+			],
+			[
+				"add_to",
+				"app/jobs/add_to_drip_campaign_job.rb"
+			],
+			[
+				"registra",
+				"app/controllers/users/registrations_controller.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,5 +1,161 @@
 ---
 ---
-
 @import "normalize";
 @import "boilerplate";
+
+
+///////////////////
+// SET VARIABLES //
+///////////////////
+
+// Set size variables
+$rem: 12px;
+
+// Set color variables
+$black: #262020;
+$tan: #f9f3ef;
+$tan-dark: darken($tan,10%);
+$red: #e54545;
+$blue: #56b0d8;
+$green: #56d8ad;
+
+// Set breakpoints variables
+$break-medium: (54*$rem);
+$break-small: (44*$rem);
+
+// Set padding variables
+$padded-normal: 4rem;
+$padded-medium: 3rem;
+$padded-small: 2rem;
+
+
+///////////////////////
+// GLOBAL TYPOGRAPHY //
+///////////////////////
+
+// Custom Font
+@font-face {
+  font-family: 'Noe Display';
+  src: url('NoeDisplay-Medium.eot');
+  src: url('NoeDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('NoeDisplay-Medium.woff2') format('woff2'),
+    url('NoeDisplay-Medium.woff') format('woff'),
+    url('NoeDisplay-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+// Set typography variables
+$body-text: "Avenir Next", "Avenir", "Helvetica Neue", "Helvetica", "Century Gothic", "Verdana", sans-serif;
+$heading-text: "Noe Display", "Georgia", serif;
+
+// Set 1 rem to be equal to 12px; this is the global vertical rythm.
+html {
+  font-size: 12px; // 1rem
+}
+
+// Use Avenir for normal text.
+body {
+  font-family: $body-text;
+  font-size: 1.334em; // 16px
+  line-height: 1.125em; // 24px or 2rem;
+  color: $black;
+  background-color: $tan;
+}
+
+h1 {
+  margin: 1.25rem 0 0.25rem 0;  // 15px 0 3px 0
+  font-family: $heading-text;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 5rem;
+  text-align: center;
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+h2 {
+  margin: 1.25rem 0 0.25rem 0;  // 15px 0 3px 0
+  font-family: $heading-text;
+  font-weight: 600;
+  font-size: 2.67rem;   // 32px
+  line-height: 3.5rem;  // 42px
+  text-align: center;
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+
+///////////////////////
+// UNIVERSAL CLASSES //
+///////////////////////
+
+// Apply left/right padding to certain full-width elements that aren't supposed to extend to the edge of the screen.
+.padded {
+  padding-left: $padded-normal;
+  padding-right: $padded-normal;
+
+  @media screen and (max-width: $break-medium) {
+    padding-left: $padded-medium;
+    padding-right: $padded-medium;
+  }
+  @media screen and (max-width: $break-small) {
+    padding-left: $padded-small;
+    padding-right: $padded-small;
+  }
+}
+.v-padded {
+  padding-top: $padded-medium;
+  padding-bottom: $padded-medium;
+
+  @media screen and (max-width: $break-medium) {
+    padding-top: $padded-small;
+    padding-bottom: $padded-small;
+  }
+}
+
+// Hide text when the $break-small breakpoint is triggered
+@media screen and (max-width: $break-small) {
+  .hide-small {
+    display: none;
+  }
+}
+
+// Show text when the $break-small breakpoint is triggered
+@media screen and (min-width: $break-small) {
+  .show-small {
+    display: none;
+  }
+}
+
+// Hide text when the $break-medium breakpoint is triggered
+@media screen and (max-width: $break-medium) {
+  .hide-medium {
+    display: none;
+  }
+}
+
+// Show text when the $break-medium breakpoint is triggered
+@media screen and (min-width: $break-medium) {
+  .show-medium {
+    display: none;
+  }
+}
+
+
+/////////////
+// IMPORTS //
+/////////////
+
+// Partials
+@import "siteheader";
+@import "hero";
+
+// Pages
+@import "home";
