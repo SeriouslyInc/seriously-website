@@ -36,11 +36,11 @@ $padded-small: 2rem;
 // Custom Font
 @font-face {
   font-family: 'Noe Display';
-  src: url('NoeDisplay-Medium.eot');
-  src: url('NoeDisplay-Medium.eot?#iefix') format('embedded-opentype'),
-    url('NoeDisplay-Medium.woff2') format('woff2'),
-    url('NoeDisplay-Medium.woff') format('woff'),
-    url('NoeDisplay-Medium.ttf') format('truetype');
+  src: url('../font/NoeDisplay-Medium.eot');
+  src: url('../font/NoeDisplay-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../font/NoeDisplay-Medium.woff2') format('woff2'),
+    url('../font/NoeDisplay-Medium.woff') format('woff'),
+    url('../font/NoeDisplay-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
