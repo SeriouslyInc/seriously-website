@@ -44,6 +44,7 @@ $padded-small: 2rem;
     url('../font/NoeDisplay-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 // Set typography variables
