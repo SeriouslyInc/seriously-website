@@ -12,16 +12,17 @@
 $rem: 12px;
 
 // Set color variables
-$black: #262020;
-$tan: #f9f3ef;
+$black: #332929;
+$tan: #F5E3D3;
 $tan-dark: darken($tan,10%);
-$red: #e54545;
-$blue: #56b0d8;
+$red: #EB3636;
+$blue: #1f98cc;
 $green: #56d8ad;
 
 // Set breakpoints variables
 $break-medium: (54*$rem);
 $break-small: (44*$rem);
+$break-tiny: (27*$rem);
 
 // Set padding variables
 $padded-normal: 4rem;
@@ -58,7 +59,7 @@ html {
 body {
   font-family: $body-text;
   font-size: 1.334em; // 16px
-  line-height: 1.125em; // 24px or 2rem;
+  line-height: 1.5em; // 24px or 2rem;
   color: $black;
   background-color: $tan;
 }
@@ -83,12 +84,35 @@ h2 {
   font-weight: 600;
   font-size: 2.67rem;   // 32px
   line-height: 3.5rem;  // 42px
-  text-align: center;
+  
+
+  @media screen and (max-width: $break-medium) {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin-bottom: 0;
+  }
+}
+
+h3 {
+  margin: 1rem 0 0 0;  // 15px 0 3px 0
+  font-family: $heading-text;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left;
 
   @media screen and (max-width: $break-medium) {
     font-size: 2rem;
     line-height: 3rem;
   }
+}
+
+input {
+  font-family: $body-text;
+}
+
+a {
+  color: $blue;
 }
 
 
@@ -155,6 +179,7 @@ h2 {
 
 // Partials
 @import "siteheader";
+@import "sitefooter";
 @import "hero";
 
 // Pages

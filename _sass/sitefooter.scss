@@ -1,0 +1,18 @@
+/////////////////
+// SITE FOOTER // The bottom of every page
+/////////////////
+
+.sitefooter {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: transparentize($red,.05);
+  color: $tan;
+  text-align: center;
+
+  p {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin: 0;
+    font-size: 1.167rem;
+  }
+}

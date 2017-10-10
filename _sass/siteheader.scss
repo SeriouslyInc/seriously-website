@@ -1,28 +1,64 @@
-.page {
-  margin-top: 5rem;
-}
-
 /////////////////
 // SITE HEADER // The master header at the top of every page
 /////////////////
 
 // Site Header Container
+// .siteheader {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   height: 4rem;
+//   padding-top: 2rem;
+//   padding-bottom: 2rem;
+//   // background-color: $red;
+//   opacity: 0.98;
+//   z-index: 1000;
+//   // border-top: 2px solid $red;
+// }
+// .siteheader-logo {
+//   display: block;
+//   position: relative;
+//   width: 12.83rem;
+//   height: 4rem;
+//   padding: 0;
+//   margin: 0 auto 0 auto;
+//   // background-color: white;
+// }
+
+// Site Header Container
 .siteheader {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 3rem;
+  height: 2.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: white;
-  opacity: 0.98;
+  background-color: transparentize($red,.05);
+  opacity: 1;
   z-index: 1000;
+  // border-bottom: 1px solid transparentize($black,0.8);
 }
 .siteheader-logo {
   display: block;
   position: relative;
-  width: 13rem;
-  height: 3rem;
-  margin: 0.167rem auto -0.167rem auto;
+  height: 2.25rem;
+  padding: 0.25rem;
+  margin: 0 auto;
+  // background-color: white;
+}
+
+// Responsive
+@media screen and (max-width: $break-small) {
+  .siteheader {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    // height: 2rem;
+  }
+  .siteheader-logo {
+    // height: 1.83rem;
+    // padding-top: 0.167rem;
+  }
+  
 }

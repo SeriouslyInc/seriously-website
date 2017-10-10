@@ -1,10 +1,196 @@
-body#home {
-  background-color: $blue;
-}
+///////////////
+// HOME HERO //
+///////////////
 
 .home-hero {
-  .hero-text {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+  background-color: $tan;
+  background-image: url('../img/home-hero-bg.jpg');
+  overflow: hidden;
+  height: 66rem;
+}
+.home-hero-text {
+  padding-top: 26rem;
+  padding-bottom: 6rem;
+
+  // .hero-heading,
+  // .hero-subheading {
+  //   text-align: center;
+  // }
+}
+
+.home-hero-cta {
+  text-align: center;
+
+  a {
+    font-size: 1.75rem;
+    line-height: 3rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid $blue;
+    margin: 1px;
+    border-radius: 0.5rem;
+
+    &:hover {
+      border: 2px solid $blue;
+      margin: -1px;
+      color: $blue;
+    }
+    &:active {
+      background-color: $blue;
+      color: white;
+    }
+  }
+}
+
+// Responsive
+@media screen and (max-width: (77*$rem)) {
+  .home-hero {
+    height: 62rem;
+  }
+  .home-hero-text {
+    padding-top: 23rem;
+    padding-bottom: 6rem;
+  }
+}
+@media screen and (max-width: $break-small) {
+  .home-hero {
+    height: 56rem;
+  }
+  .home-hero-text {
+    padding-top: 20rem;
+    padding-bottom: 6rem;
+  }
+}
+@media screen and (max-width: $break-tiny) {
+  .home-hero {
+    height: 48rem;
+  }
+  .home-hero-text {
+    padding-top: 14rem;
+    padding-bottom: 6rem;
+  }
+}
+
+
+//////////
+// USPS //
+//////////
+
+.usps {
+  overflow: hidden;
+  padding-top: 4rem;
+  padding-bottom: 0;
+  padding-left: $padded-normal/2;
+  padding-right: $padded-normal/2;
+  background-color: white;
+
+  img {
+    margin-top: 3rem;
+    margin-left: $padded-normal/-2;
+    margin-right: $padded-normal/-2;
+  }
+}
+.usp {
+  padding: 0 $padded-normal/2;
+  box-sizing: border-box;
+  float: left;
+  width: 33.3%;
+  text-align: center;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+.usp-description {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+// Responsive
+@media screen and (max-width: (77*$rem)) {
+  .usp {
+    width: auto;
+    float: none;
+    margin: 0 0 6rem 0;
+
+    p {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+
+//////////////
+// WAITLIST //
+//////////////
+
+.waitlist {
+  padding-top: 6rem;
+  background-color: $tan;
+  text-align: center;
+}
+
+#mc_embed_signup {
+  margin: 6rem 0 6rem 0;
+}
+
+#mce-EMAIL {
+  display: inline-block;
+  position: relative;
+  width: 26rem;
+  border: 0;
+  border-bottom: 1px solid $blue;
+  margin-right: 0.5rem;
+  margin-bottom: 1px;
+  background-color: transparent;
+  font-size: 2rem;
+  line-height: 3rem;
+  text-align: left;
+  color: $black;
+
+  &::placeholder {
+    color: transparentize($black,0.5);
+    
+  }
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid $blue;
+    margin-bottom: 0;
+  }
+}
+
+#mc-embedded-subscribe {
+  display: inline-block;
+  padding: 0 1.25rem;
+  border: 1px solid $blue;
+  border-radius: 0.5rem;
+  margin: 0;
+  font-size: 1.75rem;
+  line-height: 3rem;
+  background-color: transparent;
+  color: $blue;
+  
+  &:hover {
+    border: 2px solid $blue;
+    margin: -1px;
+    color: $blue;
+  }
+  &:active {
+    background-color: $blue;
+    color: white;
+  }
+}
+
+@media screen and (max-width: $break-medium) {
+  #mce-EMAIL {
+    max-width: 22rem;
+    width: 100%;
+  }
+}
+@media screen and (max-width: (33*$rem)) {
+  #mce-EMAIL {
+    text-align: center;
+  }
+  #mc-embedded-subscribe {
+    margin-top: 2rem;
   }
 }
