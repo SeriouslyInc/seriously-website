@@ -1,0 +1,80 @@
+.package-list {
+  overflow: hidden;
+  margin-top: 3rem;
+  margin-bottom: 3rem
+}
+.package-list-liner {
+  width: 58rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.package {
+  float: left;
+  box-sizing: border-box;
+  width: 27rem;
+  padding: 2rem;
+  margin: 0 1rem;
+  border-radius: 1rem;
+  background-color: white;
+  text-align: left;
+  transition: box-shadow 0.25s;
+  box-shadow: 0 0.167rem 0.67rem rgba(0,0,0,0.15);
+
+  &:hover {
+    box-shadow: 0 0.167rem 0.834rem rgba(0,0,0,0.5);
+  }
+}
+.package-name {
+  margin: 0;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+.package-price {
+  font-size: 2.67rem;   // 32px
+  line-height: 3.5rem;  // 42px
+  margin: 0.5rem 0 0 0;
+}
+.package-period {
+  font-family: $body-text;
+  font-size: 1.167rem;
+  line-height: 1.34rem;
+  font-weight: normal;
+}
+.package-fineprint {
+  margin: 0;
+  font-size: 1.167rem;
+}
+.package-features {
+  list-style-image: url('/img/check.svg');
+  padding-left: 2rem;
+}
+.package-feature {
+  &.disabled {
+    opacity: 0.5;
+  }
+}
+.package-button {
+  padding-top: 0.5rem;
+
+  a {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 0.75rem 1.25rem;
+    background-color: $blue;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: lighten($blue,7%);
+    }
+    &:active {
+      background-color: darken($blue,7%);
+    }
+  }
+}

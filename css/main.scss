@@ -114,6 +114,9 @@ input {
 a {
   color: $blue;
 }
+hr {
+  margin: 1rem 0;
+}
 
 
 ///////////////////////
@@ -177,10 +180,13 @@ a {
 // IMPORTS //
 /////////////
 
+// Helpers
+
 // Partials
 @import "siteheader";
 @import "sitefooter";
 @import "hero";
+@import "pricing";
 
 // Pages
 @import "home";
