@@ -14,7 +14,7 @@ $rem: 12px;
 // Set color variables
 $black: #332929;
 $tan: #F5E3D3;
-$tan-dark: darken($tan,10%);
+$tan-dark: #bfb5ac;
 $red: #EB3636;
 $blue: #1f98cc;
 $green: #56d8ad;
@@ -187,6 +187,7 @@ hr {
 @import "sitefooter";
 @import "hero";
 @import "pricing";
+@import "paywall";
 
 // Pages
 @import "home";

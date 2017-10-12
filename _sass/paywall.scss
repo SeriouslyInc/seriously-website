@@ -1,0 +1,314 @@
+.section {
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 1px solid $tan-dark;
+}
+.section-text {
+  width: 36rem;
+  float: left;
+}
+.section-heading {
+  font-size: 4rem;
+  line-height: 5rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: (77*$rem)) {
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+  }
+  @media screen and (max-width: $break-medium) {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+.section-subheading {
+  font-family: $body-text;
+  font-size: 1.67rem;
+  line-height: 2.5rem;
+  font-weight: 400;
+}
+.section-image {
+  position: relative;
+  width: 64rem;
+  float: right;
+  height: 34rem;
+  margin: 4rem 4rem;
+
+  figure {
+    display: block;
+    position: absolute;
+    width: 20rem;
+    height: 10rem;
+    padding: 0rem;
+    margin: 0;
+    background-color: transparentize($tan,0.5);
+    z-index: 0;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+  .f1 { top: 00rem; left: 00rem; }
+  .f2 { top: 00rem; left: 22rem; }
+  .f3 { top: 00rem; left: 44rem; }
+  .f4 { top: 12rem; left: 00rem; }
+  .f5 { top: 12rem; left: 22rem; }
+  .f6 { top: 12rem; left: 44rem; }
+  .f7 { top: 24rem; left: 00rem; }
+  .f8 { top: 24rem; left: 22rem; }
+  .f9 { top: 24rem; left: 44rem; }
+
+  .logo-wsj {
+    width: 24rem;
+    height: 12rem;
+    margin: -2rem 0 0 -3rem;
+    z-index: 9;
+  }
+  .logo-economist {
+    margin-top: -1rem;
+  }
+  
+  .logo-nytimes {
+    width: 26rem;
+    height: 13rem;
+    margin: -1.5rem -3rem;
+    z-index: 10;
+  }
+  .logo-politico {
+    width: 18rem;
+    height: 9rem;
+    margin: 0.5rem 0 0 3rem;
+  }
+  .logo-wp {
+    width: 24rem;
+    height: 12rem;
+    margin: 0 -3rem -2rem 0;
+    z-index: 8;
+  }
+  .logo-atlantic {
+    width: 18rem;
+    height: 9rem;
+    margin: 1rem 1rem 0 1rem;
+  }
+  .logo-guardian {
+    margin-left: -2rem;
+  }
+}
+
+// Alignment
+.align-left {
+  .section-text {
+    float: left;
+  }
+  .section-image {
+    float: right;
+  }
+}
+.align-right {
+  .section-text {
+    float: right;
+  }
+  .section-image {
+    float: left;
+  }
+}
+
+// Responsive
+@media screen and (max-width: (116*$rem)) {
+  .section-image {
+    width: 54rem;
+    height: 27rem;
+
+    figure,
+    .logo-wsj,
+    .logo-economist,
+    .logo-nytimes,
+    .logo-politico,
+    .logo-wp,
+    .logo-atlantic,
+    .logo-guardian {
+      width: 18rem;
+      height: 9rem;
+      margin: 0;
+      background-color: transparent;
+    }
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 18rem; }
+    .f3 { top: 00rem; left: 36rem; }
+    .f4 { top: 09rem; left: 00rem; }
+    .f5 { top: 09rem; left: 18rem; }
+    .f6 { top: 09rem; left: 36rem; }
+    .f7 { top: 18rem; left: 00rem; }
+    .f8 { top: 18rem; left: 18rem; }
+    .f9 { top: 18rem; left: 36rem; }
+  }
+}
+@media screen and (max-width: (106*$rem)) {
+  .section-image {
+    width: 48rem;
+  }
+}
+@media screen and (max-width: (100*$rem)) {
+  .section-image {
+    width: 36rem;
+    height: 36rem;
+    margin: 0 4rem;
+
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 18rem; }
+    .f3 { top: 09rem; left: 00rem; }
+    .f4 { top: 09rem; left: 18rem; }
+    .f5 { top: 18rem; left: 00rem; }
+    .f6 { top: 18rem; left: 18rem; }
+    .f7 { top: 27rem; left: 00rem; }
+    .f8 { display: none; }
+    .f9 { top: 27rem; left: 18rem; }
+  }
+}
+@media screen and (max-width: (92*$rem)) {
+  .section-text {
+    width: 32rem;
+  }
+  .section-image {
+    width: 32rem;
+    margin: 0 4rem;
+  }
+}
+@media screen and (max-width: (84*$rem)) {
+  .section-text {
+    width: 28rem;
+  }
+  .section-image {
+    width: 28rem;
+  }
+}
+@media screen and (max-width: (76*$rem)) {
+  .section-text {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+  .section-image,
+  .align-left .section-image,
+  .align-right .section-image {
+    float: none;
+  }
+  .section-image {
+    clear: both;
+    width: 62rem;
+    height: 33rem;
+    float: none;
+    margin: 0 auto;
+
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 22rem; }
+    .f3 { top: 00rem; left: 44rem; }
+    .f4 { top: 12rem; left: 00rem; }
+    .f5 { top: 12rem; left: 22rem; }
+    .f6 { top: 12rem; left: 44rem; }
+    .f7 { top: 24rem; left: 00rem; }
+    .f8 { top: 24rem; left: 22rem; display: block; }
+    .f9 { top: 24rem; left: 44rem; }
+  }
+}
+@media screen and (max-width: (72*$rem)) {
+  .section-image {
+    width: 54rem;
+    height: 27rem;
+
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 18rem; }
+    .f3 { top: 00rem; left: 36rem; }
+    .f4 { top: 09rem; left: 00rem; }
+    .f5 { top: 09rem; left: 18rem; }
+    .f6 { top: 09rem; left: 36rem; }
+    .f7 { top: 18rem; left: 00rem; }
+    .f8 { top: 18rem; left: 18rem; }
+    .f9 { top: 18rem; left: 36rem; }
+  }
+}
+@media screen and (max-width: (64*$rem)) {
+  .section-image {
+    width: 36rem;
+    height: 18rem;
+
+    figure,
+    .logo-wsj,
+    .logo-economist,
+    .logo-nytimes,
+    .logo-politico,
+    .logo-wp,
+    .logo-atlantic,
+    .logo-guardian {
+      width: 12rem;
+      height: 6rem;
+      margin: 0;
+    }
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 12rem; }
+    .f3 { top: 00rem; left: 24rem; }
+    .f4 { top: 06rem; left: 00rem; }
+    .f5 { top: 06rem; left: 12rem; }
+    .f6 { top: 06rem; left: 24rem; }
+    .f7 { top: 12rem; left: 00rem; }
+    .f8 { top: 12rem; left: 12rem; }
+    .f9 { top: 12rem; left: 24rem; }
+  }
+}
+@media screen and (max-width: (42*$rem)) {
+  .section-image {
+    width: 30rem;
+    height: 15rem;
+
+    figure,
+    .logo-wsj,
+    .logo-economist,
+    .logo-nytimes,
+    .logo-politico,
+    .logo-wp,
+    .logo-atlantic,
+    .logo-guardian {
+      width: 10rem;
+      height: 5rem;
+      margin: 0;
+    }
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 10rem; }
+    .f3 { top: 00rem; left: 20rem; }
+    .f4 { top: 05rem; left: 00rem; }
+    .f5 { top: 05rem; left: 10rem; }
+    .f6 { top: 05rem; left: 20rem; }
+    .f7 { top: 10rem; left: 00rem; }
+    .f8 { top: 10rem; left: 10rem; }
+    .f9 { top: 10rem; left: 20rem; }
+  }
+}
+@media screen and (max-width: (36*$rem)) {
+  .section-image {
+    width: 27rem;
+    height: 27rem;
+
+    figure,
+    .logo-wsj,
+    .logo-economist,
+    .logo-nytimes,
+    .logo-politico,
+    .logo-wp,
+    .logo-atlantic,
+    .logo-guardian {
+      width: 13.5rem;
+      height: 6.75rem;
+      margin: 0;
+    }
+    .f1 { top: 00rem; left: 00rem; }
+    .f2 { top: 00rem; left: 13.5rem; }
+    .f3 { top: 06.75rem; left: 00rem; }
+    .f4 { top: 06.75rem; left: 13.5rem; }
+    .f5 { top: 13.5rem; left: 00rem; }
+    .f6 { top: 13.5rem; left: 13.5rem; }
+    .f7 { top: 20.25rem; left: 00rem; }
+    .f8 { display: none; }
+    .f9 { top: 20.25rem; left: 13.5rem; }
+  }
+}
