@@ -34,7 +34,7 @@
   height: 34rem;
   margin: 4rem 4rem;
 
-  figure {
+  .logo {
     display: block;
     position: absolute;
     width: 20rem;
@@ -120,7 +120,7 @@
     width: 54rem;
     height: 27rem;
 
-    figure,
+    .logo,
     .logo-wsj,
     .logo-economist,
     .logo-nytimes,
@@ -233,7 +233,7 @@
     width: 36rem;
     height: 18rem;
 
-    figure,
+    .logo,
     .logo-wsj,
     .logo-economist,
     .logo-nytimes,
@@ -261,7 +261,7 @@
     width: 30rem;
     height: 15rem;
 
-    figure,
+    .logo,
     .logo-wsj,
     .logo-economist,
     .logo-nytimes,
@@ -289,7 +289,7 @@
     width: 27rem;
     height: 27rem;
 
-    figure,
+    .logo,
     .logo-wsj,
     .logo-economist,
     .logo-nytimes,
@@ -310,5 +310,12 @@
     .f7 { top: 20.25rem; left: 00rem; }
     .f8 { display: none; }
     .f9 { top: 20.25rem; left: 13.5rem; }
+  }
+}
+
+//
+.section-qualityjournalism {
+  img {
+    width: 100%;
   }
 }

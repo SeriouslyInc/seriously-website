@@ -127,71 +127,72 @@
   padding-top: 6rem;
   background-color: $tan;
   text-align: center;
-}
 
-#mc_embed_signup {
-  margin: 6rem 0 6rem 0;
-}
 
-#mce-EMAIL {
-  display: inline-block;
-  position: relative;
-  width: 26rem;
-  border: 0;
-  border-bottom: 1px solid $blue;
-  margin-right: 0.5rem;
-  margin-bottom: 1px;
-  border-radius: 0;
-  background-color: transparent;
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: left;
-  color: $black;
-
-  &::placeholder {
-    color: transparentize($black,0.5);
-    
+  #mc_embed_signup {
+    margin: 6rem 0 6rem 0;
   }
-  &:focus {
-    outline: none;
-    border-bottom: 2px solid $blue;
-    margin-bottom: 0;
-  }
-}
 
-#mc-embedded-subscribe {
-  display: inline-block;
-  padding: 0 1.25rem;
-  border: 1px solid $blue;
-  border-radius: 0.5rem;
-  margin: 0;
-  font-size: 1.75rem;
-  line-height: 3rem;
-  background-color: transparent;
-  color: $blue;
-  
-  &:hover {
-    border: 2px solid $blue;
-    margin: -1px;
-    color: $blue;
-  }
-  &:active {
-    background-color: $blue;
-    color: white;
-  }
-}
-
-@media screen and (max-width: $break-medium) {
   #mce-EMAIL {
-    max-width: 22rem;
-    width: 100%;
+    display: inline-block;
+    position: relative;
+    width: 26rem;
+    border: 0;
+    border-bottom: 1px solid $blue;
+    margin-right: 0.5rem;
+    margin-bottom: 1px;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: left;
+    color: $black;
+
+    &::placeholder {
+      color: transparentize($black,0.5);
+      
+    }
+    &:focus {
+      outline: none;
+      border-bottom: 2px solid $blue;
+      margin-bottom: 0;
+    }
   }
-}
-@media screen and (max-width: (33*$rem)) {
-  #mce-EMAIL {
-    text-align: center;
-  }
+
   #mc-embedded-subscribe {
-    margin-top: 2rem;
+    display: inline-block;
+    padding: 0 1.25rem;
+    border: 1px solid $blue;
+    border-radius: 0.5rem;
+    margin: 0;
+    font-size: 1.75rem;
+    line-height: 3rem;
+    background-color: transparent;
+    color: $blue;
+    
+    &:hover {
+      border: 2px solid $blue;
+      margin: -1px;
+      color: $blue;
+    }
+    &:active {
+      background-color: $blue;
+      color: white;
+    }
+  }
+
+  @media screen and (max-width: $break-medium) {
+    #mce-EMAIL {
+      max-width: 22rem;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: (33*$rem)) {
+    #mce-EMAIL {
+      text-align: center;
+    }
+    #mc-embedded-subscribe {
+      margin-top: 2rem;
+    }
   }
 }

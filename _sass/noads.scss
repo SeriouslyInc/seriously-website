@@ -1,0 +1,59 @@
+.ad {
+  position: absolute;
+  margin: 0;
+  box-shadow: 0 0.167rem 0.67rem rgba(0,0,0,0.25);
+  transition: 1s;
+  opacity: 1;
+
+  .animate & {
+    opacity: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+.ad5 {
+  top: 0; right: 0; width: 36%;
+  .animate & { top: 100%; right: 100% }
+}
+.ad11 {
+  top: -2rem; left: -2rem; width: 80%;
+  .animate & { top: 100%; left: 100% }
+}
+.ad10 {
+  right: -4rem; bottom: 0; width: 45%;
+  .animate & { right: 100%; bottom: 100% }
+}
+.ad12 {
+  bottom: -2rem; left: 6rem; width: 75%;
+  .animate & { bottom: 100%; left: 100% }
+}
+.ad2 {
+  bottom: 0; left: 0; width: 33%;
+  .animate & { bottom: 100%; left: 100% }
+}
+.ad7 {
+  top: 11rem; right: 2rem; width: 75%;
+  .animate & { top: 100%; right: 100% }
+}
+.ad8 {
+  bottom: 0; left: 0; width: 67%;
+  .animate & { bottom: 100%; left: 100% }
+}
+.ad1 {
+  top: 20%; left: 10%; width: 67%;
+  .animate & { top: 100%; left: 100% }
+}
+.ad4 {
+  bottom: 0%; right: 10%; width: 40%;
+  .animate & { bottom: 100%; right: 100% }
+}
+.ad6 {
+  top: 5%; left: 5%; width: 25%;
+  .animate & { top: 100%; left: 100% }
+}
+.ad13 {
+  bottom: 25%; left: 5%; width: 67%;
+  .animate & { bottom: 100%; left: 100% }
+}

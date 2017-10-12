@@ -1,0 +1,38 @@
+#signup .sitefooter {
+  display: none;
+}
+.signup-form {
+  width: 36rem;
+  margin: 8.5rem auto 4rem auto;
+  background-color: white;
+  box-shadow: 0 0.167rem 0.67rem rgba(0,0,0,0.05);
+  border-radius: 1rem;
+
+  #mc_embed_signup input.signup-button {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+    padding: 0.75rem 0;
+    margin: 0.5rem 0 0 0;
+    border: 0px solid none;
+    box-sizing: border-box;
+    background-color: $blue;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: lighten($blue,7%);
+    }
+    &:active {
+      background-color: darken($blue,7%);
+    }
+  }
+
+  #mc_embed_signup .mc-field-group {
+    width: 100%;
+  }
+}
