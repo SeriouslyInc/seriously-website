@@ -1,10 +1,10 @@
 .package-list {
   overflow: hidden;
   margin-top: 3rem;
-  margin-bottom: 3rem
+  margin-bottom: 0;
 }
 .package-list-liner {
-  width: 58rem;
+  width: 56rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin: 0 auto;
@@ -13,7 +13,7 @@
 .package {
   float: left;
   box-sizing: border-box;
-  width: 27rem;
+  width: 26rem;
   padding: 2rem;
   margin: 0 1rem;
   border-radius: 1rem;
@@ -76,5 +76,22 @@
     &:active {
       background-color: darken($blue,7%);
     }
+  }
+}
+
+@media screen and (max-width: (66*$rem)) {
+  .package-list-liner {
+    width: auto;
+    padding: 0 0.5rem;
+  }
+  .package {
+    float: none;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: $break-medium) {
+  .package-list {
+    margin-top: 2rem;
   }
 }
