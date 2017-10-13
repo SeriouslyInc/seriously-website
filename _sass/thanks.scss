@@ -1,0 +1,23 @@
+.hero-thanks {
+  margin-top: 5rem;
+}
+.hero-text-thanks {
+  .hero-heading {
+    margin-bottom: 3rem;
+  }
+  
+  p {
+    font-family: $body-text;
+    font-size: 1.67rem;
+    line-height: 3rem;
+    font-weight: 400;
+    text-align: justify;
+    max-width: 58.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (max-width: $break-small) {
+      line-height: 2.75rem;
+    }
+  }
+}
