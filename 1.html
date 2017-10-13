@@ -4,6 +4,43 @@ bodyId: home
 title: Unlimited, ad-free access to the premium news publications you trust. Seriously.
 ---
 
+<!-- Begin tracking -->
+<script>
+  analytics.track('Page Viewed', {
+    name: 'Landing',
+    varient: 'Experiment 1'
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $("#get-seriously").click(function() {
+      analytics.track('Button Clicked', {
+        name: 'Get Seriously',
+        varient: 'Experiment 1',
+        location: 'Hero',
+        page_name: 'Landing'
+      });
+    });
+    $("#get-seriously-free").click(function() {
+      analytics.track('Button Clicked', {
+        name: 'Get Seriously Free',
+        varient: 'Experiment 1',
+        location: 'Pricing Chart',
+        page_name: 'Landing'
+      });
+    });
+    $("#try-seriously-pro").click(function() {
+      analytics.track('Button Clicked', {
+        name: 'Try Seriously Pro',
+        varient: 'Experiment 1',
+        location: 'Pricing Chart',
+        page_name: 'Landing'
+      });
+    });
+  });
+</script>
+<!-- End tracking -->
+
 <!-- Hero -->
 <header class="hero home-hero">
   <div class="hero-text home-hero-text padded color-black">
@@ -11,7 +48,7 @@ title: Unlimited, ad-free access to the premium news publications you trust. Ser
     <p class="hero-subheading">Ad-free news from the premium publications you trust. Seriously.</p>
   </div>
   <div class="home-hero-cta">
-    <a href="#signup">Get Seriously</a>
+    <a id="get-seriously" href="#signup">Get Seriously</a>
   </div>
 </header>
 
@@ -95,7 +132,7 @@ title: Unlimited, ad-free access to the premium news publications you trust. Ser
           </ul>
           <hr />
           <div class="package-button">
-            <a href="1signup.html">Get Seriously Free</a>
+            <a id="get-seriously-free" href="1signup-free.html">Get Seriously Free</a>
           </div>
         </div>
 
@@ -113,7 +150,7 @@ title: Unlimited, ad-free access to the premium news publications you trust. Ser
           </ul>
           <hr />
           <div class="package-button">
-            <a href="1signup.html">Try Seriously Pro</a>
+            <a id="try-seriously-pro" href="1signup-pro.html">Try Seriously Pro</a>
           </div>
         </div>
 

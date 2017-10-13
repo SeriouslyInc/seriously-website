@@ -4,6 +4,13 @@ bodyId: signup
 title: Signup for Seriously
 ---
 
+<script>
+  analytics.track('Page Viewed', {
+    name: 'Thank You',
+    varient: 'Experiment 1'
+  });
+</script>
+
 <header class="hero hero-thanks v-padded">
   <div class="hero-text hero-text-thanks padded v-padded color-black">
     <h1 class="hero-heading">Thanks for your interest!</h1>
@@ -15,7 +22,3 @@ title: Signup for Seriously
     <br/>
   </div>
 </header>
-
-<script>
-  fbq('track', 'CompleteRegistration');
-</script>

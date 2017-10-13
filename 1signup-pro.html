@@ -1,0 +1,29 @@
+---
+layout: base
+bodyId: signup
+title: Sign Up for Seriously
+---
+
+<!-- Begin tracking -->
+<script>
+  analytics.track('Page Viewed', {
+    name: 'Sign Up',
+    varient: 'Experiment 1'
+  });
+</script>
+<script>
+  $(document).ready(function(){
+    $("#mc-embedded-subscribe-form").submit(function() {
+      analytics.track('Account Created', {
+        first_name: $("#mce-FNAME").val(),
+        last_name: $("#mce-LNAME").val(),
+        email: $("#mce-EMAIL").val(),
+        varient: 'Experiment 1',
+        plan: "Pro"
+      });
+    });
+  });
+</script>
+<!-- End tracking -->
+
+{% include signup-form.html %}
