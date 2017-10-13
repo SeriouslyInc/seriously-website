@@ -1,4 +1,12 @@
+.hero-pricing-bg {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 .package-list {
+  position: relative;
   overflow: hidden;
   margin-top: 3rem;
   margin-bottom: 0;
