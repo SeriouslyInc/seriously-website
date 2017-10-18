@@ -207,3 +207,98 @@
 //     padding-bottom: 4rem;
 //   }
 // }
+
+// 1.html
+.section-screenshots {
+  background-color: white;
+}
+.screenshots-images {
+  position: relative;
+  width: 109.34rem;
+  height: 50rem;
+  margin: 0 auto;
+}
+.screenshots-image {
+  position: absolute;
+  top: 0;
+  width: 33.33%;
+}
+.screenshots-image-1 {
+  left: 0;
+}
+.screenshots-image-2 {
+  left: 33.33%;
+}
+.screenshots-image-3 {
+  left: 66.66%;
+}
+@media screen and (max-width: (120*$rem)) {
+  .screenshots-images {
+    width: 100rem;
+    height: 45.4167rem;
+  }
+}
+@media screen and (max-width: (108*$rem)) {
+  .screenshots-images {
+    width: 90rem;
+    height: 40.583rem;
+  }
+}
+@media screen and (max-width: (100*$rem)) {
+  .screenshots-images {
+    width: 100%;
+    height: 40.583rem;
+  }
+  .screenshots-image-1 {
+    width: 30rem;
+    left: 50%;
+    margin-left: -15rem;
+    z-index: 3;
+  }
+  .screenshots-image-2 {
+    width: 26rem;
+    top: 5.75rem;
+    left: 0;
+    z-index: 2;
+  }
+  .screenshots-image-3 {
+    width: 24rem;
+    top: 8.67rem;
+    left: 100%;
+    margin-left: -25.75rem;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: (58*$rem)) {
+  .screenshots-images {
+    height: 33rem;
+  }
+  .screenshots-image-1 {
+    width: 24rem;
+    top: 1px;
+    left: 50%;
+    margin-left: -12rem;
+    z-index: 3;
+  }
+  .screenshots-image-2 {
+    width: 21rem;
+    top: 4.75rem;
+    left: 0;
+    z-index: 2;
+  }
+  .screenshots-image-3 {
+    width: 18rem;
+    top: 8.834rem;
+    left: 100%;
+    margin-left: -18.5rem;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: (36*$rem)) {
+  .screenshots-image-2 {
+    margin-left: -2rem;
+  }
+  .screenshots-image-3 {
+    margin-left: -16.5rem;
+  }
+}
